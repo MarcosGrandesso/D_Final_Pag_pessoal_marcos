@@ -23,29 +23,108 @@ body {
 
 
 
-.container-header {background-color: white;
+.container-header {background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  width: 925px;
+  height: 80px;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  margin: auto;
+  box-shadow: 0 0 1em #00000082;
 }
 
-.h1-header {display: inline-block;
-font-size: 30px;
-background-color: blue;}
+.h1-header {
+font-size: 55px;
+margin-top: 13px;
+font-family: 'Koulen', cursive;
 
-.content { width: 600px;
+
+}
+
+.h1-header:hover {color: orange;}
+
+a {padding-left: 10px; font-size: 40px;
+  align-items: center;
+}
+
+.content { width: 800px;
 height: 600px ;
 background-color: white;
  margin: auto;
 border-radius: em;
-box-shadow: 0 0 1em #00000082;}
+box-shadow: 0 0 1em #00000082;
+padding: 1em 2em;
+margin-top: 1em;}
 
 
-.foto-aleatoria {width: 150px;
-height: 150px;
+.foto-aleatoria {width: 175px;
+height: 175px;
 border-radius: 100%;
-float: left;}
+float: left;
+margin-top: 35px;
+margin-left: 15px;}
 
 .transparente-video { height: 200px;
-width: 600px;
+width: 800px;
 background-color: transparent;
 margin: auto;
 box-shadow: 0 0 1em #00000082;
+display: flex ;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 2em;
 }
+
+.gif { width: 5em;
+   display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.ptrans {  font-family: 'Koulen', cursive;
+   width: 350px;
+   height: 50px;
+}
+
+.hobby { width: 800px;
+height: 300px;
+margin: auto;
+background-color: aliceblue;
+padding: 2em;
+border-bottom-right-radius: 50px;
+border-bottom-left-radius: 50px;
+margin-bottom: 5em;
+box-shadow: 0 0 1em #00000082;}
+
+.paragrafos { font-size: 20px;
+ margin-left: 230px;
+ font-family: 'Oswald', sans-serif;
+ letter-spacing: 2px;
+ line-height: 27px;
+ margin-bottom: 40px;
+}
+
+.paragrafos-2 { font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  line-height: 27px;}
+
+.titulo-h2 {font-size: 25px;
+font-weight: bold;
+font-family: 'Koulen', cursive;
+margin: 15px 0px
+}
+
+.titulo-h2:hover {color: orange;}
+.titulo1:hover {color: orange;}
+
+.titulo1 {font-size: 25px;
+  font-weight: bold;
+  font-family: 'Koulen', cursive;
+text-align: center;
+margin-bottom: 15px;}
+
+.spanm {color: orange;}
