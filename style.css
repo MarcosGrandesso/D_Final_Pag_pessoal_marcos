@@ -52,7 +52,7 @@ a {
 
 .content {
   width: 800px;
-  height: 600px;
+  height: 630px;
   background-color: white;
   margin: auto;
   border-radius: em;
@@ -111,20 +111,14 @@ a {
 
 .paragrafos {
   font-size: 20px;
-  margin-left: 230px;
   font-family: "Oswald", sans-serif;
   letter-spacing: 2px;
   line-height: 27px;
   margin-bottom: 40px;
+  text-align: justify;
 }
 
-.paragrafos-2 {
-  font-size: 20px;
-  letter-spacing: 2px;
-  font-family: "Oswald", sans-serif;
-  letter-spacing: 2px;
-  line-height: 27px;
-}
+.margin-text { margin-left: 230px;}
 
 .titulo-h2 {
   font-size: 25px;
@@ -163,6 +157,8 @@ a {
 }
 
 @media (max-width: 600px) {
+ 
+ body { width: 925px;}
   .spanm {
     color: rgb(194, 51, 159);
   }
@@ -181,14 +177,16 @@ a {
     border-top-right-radius: 2.5em;
   height: 1500px;
 display: flex;
-flex-direction: column;}
+flex-direction: column;
+}
 
   .transparente-video {width: 700px;}
 
 .extra {width: 700px;
 height: 420px;}
 
-.titulo1 { font-size: 65px;}
+.titulo1 { font-size: 65px;
+margin-top: 50px;}
 
 .paragrafos-2 {font-size: 30px;
 letter-spacing: 5px;
@@ -201,11 +199,12 @@ line-height: 30px;}
   line-height: 30px;
   margin-bottom: 40px;
   margin-left: 0px;
-}
+text-align: justify;}
 
 .foto-aleatoria { float: none;
 width: 300px;
-height: 300px;}
+height: 300px;
+align-self: center;}
 
 
 
