@@ -100,13 +100,10 @@ a {
 
 .extra {
   width: 800px;
-  height: 300px;
+  height: 680px;
   margin: auto;
   background-color: aliceblue;
   padding: 2em;
-  border-bottom-right-radius: 50px;
-  border-bottom-left-radius: 50px;
-  margin-bottom: 5em;
   box-shadow: 0 0 1em #00000082;
 }
 
@@ -156,6 +153,24 @@ a {
   background-color: #f5af19;
   border-radius: 20px;
 }
+
+.imagens-ancoras {width: 200px;
+height: 200px;
+border-radius: 20px;
+box-shadow: 0 0 1em #00000082;
+}
+
+.imagens-ancoras:hover {width: 250px;
+                    height: 250px;
+                  }
+
+                  .ancoras-de-imagens {display: flex;
+                    justify-content: space-around;}
+                    .portfolio { height: 400px;
+                      
+                    }
+
+
 
 /*
 @media (max-width: 600px) {
@@ -252,3 +267,4 @@ padding: 4%;}
 
 .links {margin-top: -1px};
   }
+
