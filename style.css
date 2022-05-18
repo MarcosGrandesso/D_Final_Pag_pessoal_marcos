@@ -25,26 +25,28 @@ body:after {
 }
 
 .container-header {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: white;
   display: flex;
-  justify-content: space-around;
-  width: 925px;
   height: 80px;
-  border-bottom-left-radius: 150px;
-  border-bottom-right-radius: 150px;
   margin: auto;
   box-shadow: 0 0 1em #00000082;
+  justify-content: center;
+  align-items: center;
+  gap: 146px;
 }
 
 .h1-header {
   font-size: 55px;
-  margin-top: 13px;
   font-family: "Koulen", cursive;
 }
 
-.h1-header:hover {
-  color: orange;
+.links-header {
+  width: 155px;
+  height: 50px;
+  line-height: 56px;
+  border-radius: 20px;
 }
+
 .pad-img {padding-left: 10px;}
 
 
@@ -145,6 +147,10 @@ a {
   color: orange;
 }
 
+.spanm2 {
+  color: rgb(255, 0, 0);
+}
+
 .links {
   width: 155px;
   height: 50px;
@@ -154,6 +160,8 @@ a {
   background-color: #f5af19;
   border-radius: 20px;
 }
+
+
 
 .imagens-ancoras {
   width: 200px;
@@ -169,7 +177,7 @@ a {
 
 .ancoras-de-imagens {
   display: flex;
-flex-direction: column;
+justify-content: space-around;
 align-items: center;
 }
 .portfolio {
