@@ -7,6 +7,8 @@ body {
   position: relative;
   font-weight: 300;
   font-size: 1.6rem;
+  height: 200vh;
+
  
 }
 body:after {
@@ -20,8 +22,9 @@ body:after {
   opacity: 0.6;
   z-index: -1;
   background: #f12711;
-  background: -webkit-linear-gradient(to right, #f5af19, #f12711);
   background: linear-gradient(to right, #181818, #195eb2);
+
+
 }
 
 .container-header {
@@ -34,6 +37,8 @@ body:after {
   align-items: center;
   gap: 146px;
   border-bottom: solid 3px;
+  position: sticky;
+  top: 0px;
 
 }
 
@@ -158,7 +163,7 @@ a {
   height: 50px;
   line-height: 56px;
   margin: auto;
-  margin-top: 2em;
+  margin-top: 4em;
   background-color: #3879c7;;
   border-radius: 20px;
 }
@@ -170,6 +175,7 @@ a {
   height: 200px;
   border-radius: 20px;
   box-shadow: 0 0 1em #00000082;
+  transition: width 0.75s, height 0.75s;
 }
 
 .imagens-ancoras:hover {
