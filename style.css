@@ -27,32 +27,28 @@ body:after {
 /* classes que se alternam no script*/
 
 .bg-dark:after {
-  background: #f12711;
+
   background: linear-gradient(to right, #181818, #195eb2);
   opacity: 0.6;
 }
 
 .bg-light:after {
-  background: #f12711;
+
   background: linear-gradient(to right, #ffe641, #e91515);
   opacity: 0.8;
 }
 
-.spanm-light {
-  color: #f5af19;
+.span-light {
+  color: #f519b7;
 }
 
-.spanm2-light {
-  color: #f5af19;
+
+
+.span-dark {
+  color: #f519b7;
 }
 
-.spanm-dark {
-  color: #3879c7;
-}
 
-.spanm2-dark {
-  color: #3879c7;
-}
 
 .links-dark {
   width: 155px;
@@ -70,7 +66,7 @@ body:after {
   line-height: 56px;
   margin: auto;
   margin-top: 4em;
-  background-color: #f5af19;
+
   border-radius: 20px;
 }
 
@@ -91,7 +87,7 @@ body:after {
   float: left;
   margin-top: 35px;
   margin-left: 15px;
-  border: solid 3px #f5af19;
+  border: solid 3px #000000;
 }
 
 /*        FIMMM
@@ -191,6 +187,9 @@ a {
   text-align: justify;
 }
 
+.codigo-fonte {font-size: 20px;
+}
+
 .margin-text {
   margin-left: 230px;
 }
@@ -202,12 +201,7 @@ a {
   margin: 15px 0px;
 }
 
-.titulo-h2:hover {
-  color: #3879c7;
-}
-.titulo1:hover {
-  color: #3879c7;
-}
+
 
 .titulo1 {
   font-size: 25px;
