@@ -101,6 +101,7 @@ body:after {
   border-bottom: solid 3px;
   position: sticky;
   top: 0px;
+  z-index: 2;
 }
 
 .h1-header {
@@ -240,6 +241,36 @@ a {
 .flecha {
   font-size: 70px;
 }
+
+/* TENTATIVA DE ANIMAÇAO // estudar Keyframes e animaçoes depois */
+
+@keyframes neon {
+  from{ filter: drop-shadow(0 0 0 var(--cor-neon));}
+   
+  to {filter: drop-shadow(0 0 20px var(--cor-neon) );
+  }
+}
+
+@keyframes neon-2 {
+  from{ filter: drop-shadow(0 0 0 var(--cor-neon));}
+   
+  to {filter: drop-shadow(0 0 20px var(--cor-neon) );
+  }
+}
+
+.h1-header{animation: neon-2 3s alternate infinite ease-in-out;
+  --cor-neon: black}
+
+  .span-light{animation: neon 3s alternate infinite ease-in-out;
+    --cor-neon: #f519b7;}
+
+    .foto-aleatoria-light {animation: neon 3s alternate infinite ease-in-out;
+      --cor-neon: #000000;}
+  
+  /*.titulo1, .titulo-h2 {animation: neon 3s alternate infinite ease-in-out;
+    --cor-neon: black}    Ficou meio cagado essa animaçao resolvi tirar mas qq coisa eu boto dnv          */
+
+
 
 @media (max-width: 500px) {
   .content {
